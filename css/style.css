@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: palevioletred;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: gray;
+  align-items: center;
+  border: 1px solid white;
+  width: 90%;
+  height: 90%;
+}
+
+.category-btn {
+  width: 90vw;
+  height: 135px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  position: relative;
+  font-size: 25px;
+}
+
+.category-btn:hover {
+ color: cadetblue;
+}
+
+.nav-selector {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-selector,
+.nav-selector li,
+.nav-selector li span {
+  text-decoration: none; /* removes underline everywhere */
+}
+
+.arrow {
+  color: white; /* change this to any color you want */
+  font-weight: bold; /* optional */
+  margin-left: 5px; /* spacing from the text */
+  text-decoration: none; /* removes underline */
+}
+
+.nav-bar {
+  position: relative;
+}
+.nav-bar ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: black;
+}
+
+.nav-bar ul.active {
+  display: block;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.nav-selector li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 50px;
+  display: none;
+  z-index: 999;
+  width: 160px;
+}
+
+li.active {
+  display: block;
+}
+
+.nav-carousel {
+  position: relative;
+}
+.nav-carousel ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: black;
+}
+
+.nav-carousel ul.active {
+  display: block;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.nav-carousel ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: black;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: black;
+  border-radius: 8px;
+}
+
+.nav-dropdown ul.active {
+  display: block;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.nav-menu {
+  position: relative;
+}
+
+.nav-menu ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: black;
+}
+
+.nav-menu ul.active {
+  display: block;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.nav-navigation {
+  position: relative;
+}
+
+.nav-navigation ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  color: black;
+}
+
+.nav-navigation ul.active {
+  display: block;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+}
