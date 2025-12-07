@@ -16,13 +16,6 @@ A simple HTML, CSS, and JavaScript project to practice building a multi-level dr
 
 ---
 
-## Demo
-
-![Demo](demo.png)  
-_(Add a screenshot of your project here if available)_
-
----
-
 ## Folder Structure
 
 Dropdown-Nav-Practice/
